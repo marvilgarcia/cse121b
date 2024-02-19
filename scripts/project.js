@@ -3,7 +3,7 @@ let score = 0;
 let notes = [];
 
 function fetchNotesData() {
-    fetch("https://drive.google.com/file/d/1lmHTZPJe5rZYHNtKUi2jMFWa8X843rQm/view?usp=sharing")
+    fetch("https://raw.githubusercontent.com/marvilgarcia/cse121b/main/notesData.json")
         .then(response => response.json())
         .then(data => {
             notes = data.notes;
