@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | W05: Programming Tasks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html" >W5 Task</a></li>
+      <li><a href="project.html"class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="gridly">
+        <h1>Music Notes Learning</h1>
+        
+        <section id="chooseType">
+            <h2>Choose Note Type:</h2>
+            <div id="noteTypes">
+                <img src="https://drive.google.com/file/d/1GNvsdBGlm24a1jyr4vVhZ4L0UpyiJiRH/view?usp=drive_link" alt="Bass Clef" id="bassClef" onclick="chooseClef('bass')">
+                <img src="https://drive.google.com/file/d/1hj4F9BaqNl8Su9ybERQ1vLrhrNA1CJQm/view?usp=drive_link" alt="Treble Clef" id="trebleClef" onclick="chooseClef('treble')">
+            </div>
+        </section>
+        <section id="noteDisplay" style="display: none;">
+            <h2>Identify the Note:</h2>
+            <div class="staff">
+                <img src="" alt="Note" id="noteImage">
+            </div>
+            <div class="choices">
+                <button class="choice" onclick="checkAnswer('A')">A</button>
+                <button class="choice" onclick="checkAnswer('B')">B</button>
+                <button class="choice" onclick="checkAnswer('C')">C</button>
+                <button class="choice" onclick="checkAnswer('D')">D</button>
+                <button class="choice" onclick="checkAnswer('E')">E</button>
+                <button class="choice" onclick="checkAnswer('F')">F</button>
+                <button class="choice" onclick="checkAnswer('G')">G</button>
+                <!-- Add more choices as needed -->
+            </div>
+        </section>
+        <section id="feedback" style="display: none;">
+            <p id="feedbackText"></p>
+            <p>Score: <span id="score">0</span></p>
+        </section>
+    </main>
+  </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Final Project | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/w05-task.js"></script>
+</body>
+
+</html>
