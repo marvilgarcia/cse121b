@@ -33,8 +33,6 @@ function showRandomNote() {
     
 }
 
-// Other functions remain the same
-
 
 function checkAnswer(answer) {
     let randomNote = notes.find(note => note.image === document.getElementById('noteImage').src);
@@ -62,5 +60,4 @@ function startAgain() {
     document.getElementById('startAgainButton').style.display = 'none';
 }
 
-// Fetch the notes data when the page loads
 fetchNotesData();
