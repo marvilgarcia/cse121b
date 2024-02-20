@@ -3,66 +3,61 @@
     {
       "name": "A",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/a.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
 
     },
     {
       "name": "B",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/b.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
 
     },
     {
       "name": "C",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/c.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "D",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/d.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "E",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/e.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "F",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/f.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "G",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/g.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     
     {
       "name": "A",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/a2.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "B",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/b2.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
     {
       "name": "C",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/c1.png?raw=true",
-      "staff": "tremble"
-    },
-    {
-      "name": "D",
-      "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/d1.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
    
     {
       "name": "G",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/fa/g2.png?raw=true",
-      "staff": "tremble"
+      "staff": "bass"
     },
 
     
@@ -72,64 +67,64 @@
     {
       "name": "A",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/a.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
 
     },
     {
       "name": "B",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/b.png?raw=true",
-      "staff": "tremble"
+      "staff": "treble"
 
     },
     {
       "name": "C",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/c.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "D",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/d.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "E",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/e.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "F",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/F.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "G",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/g.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "C",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/c1.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "D",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/d2.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "E",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/e2.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "F",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/f2.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     },
     {
       "name": "G",
       "image": "https://github.com/marvilgarcia/cse121b/blob/main/notes/sol/g2.png?raw=true",
-      "staff": "bass"
+      "staff": "treble"
     }
     
   ]
