@@ -18,6 +18,8 @@ function chooseClef(type) {
     document.getElementById('chooseType').style.display = 'none';
     document.getElementById('noteDisplay').style.display = 'block';
     document.getElementById('feedback').style.display = 'block';
+    document.getElementById('startAgainButton').style.display = 'block';
+
     showRandomNote();
 }
 
@@ -28,14 +30,16 @@ function showRandomNote() {
     let randomNote = filteredNotes[randomIndex];
     console.log('Random note:', randomNote); // Check random note
     document.getElementById('noteImage').src = randomNote.image;
+    
 }
 
 // Other functions remain the same
 
 
 function checkAnswer(answer) {
-    // Logic to check if the answer is correct
-    let isCorrect = false; // Replace with actual logic to check the answer
+    let randomNote = notes.find(note => note.image === document.getElementById('noteImage').src);
+    let correctNoteName = randomNote.name;
+    let isCorrect = correctNoteName === answer;
     if (isCorrect) {
         score++;
         document.getElementById('score').innerText = score;
@@ -44,6 +48,18 @@ function checkAnswer(answer) {
         document.getElementById('feedbackText').innerText = 'Incorrect. Try again.';
     }
     showRandomNote();
+}
+
+
+
+function startAgain() {
+    score = 0;
+    document.getElementById('score').innerText = score;
+    document.getElementById('feedbackText').innerText = '';
+    document.getElementById('noteImage').src = '';
+    document.getElementById('noteDisplay').style.display = 'none';
+    document.getElementById('chooseType').style.display = 'block';
+    document.getElementById('startAgainButton').style.display = 'none';
 }
 
 // Fetch the notes data when the page loads
