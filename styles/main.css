@@ -269,9 +269,7 @@ footer {
     justify-content: center;
 }
 #gridly {
-    padding-bottom: 60px; /* Adjust as needed */
-}
-#temples h4 {
+    padding-bottom: 60px; 
     color: navy;
     font-size: smaller;
 }
@@ -285,34 +283,29 @@ footer {
 }
 
 
-/* Add more space between bass and treble clef images */
 #noteTypes {
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* Adjust the gap as needed */
 }
 
-/* Center the chosen images */
 #noteDisplay {
     text-align: center;
 }
 
 #noteDisplay img{
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     height: auto;
 }
 
-/* Style the buttons */
 .choices {
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* Adjust the gap as needed */
 }
 
 .choice {
-    flex-grow: 1;
+    display: flex;
     padding: 10px 20px;
     background-color: #333;
     color: white;
@@ -336,43 +329,34 @@ footer {
 #startAgainButton {
     display: block;
     margin: 20px auto;
-    /* Center the button */
     padding: 10px 20px;
-    /* Add padding around the text */
     background-color: #007bff;
-    /* Blue color for the button */
     color: white;
-    /* White text color */
     border: none;
-    /* Remove border */
     border-radius: 5px;
-    /* Rounded corners */
     cursor: pointer;
-    /* Add pointer cursor on hover */
     font-size: 16px;
-    /* Increase font size */
     transition: background-color 0.3s;
-    /* Smooth transition for color change */
 }
 
 #startAgainButton:hover {
     background-color: #0056b3;
-    /* Darker blue color on hover */
 }
+
 #noteTypes img {
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     height: auto;
 }
+
 #feedback {
     text-align: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
 }
 
 #score {
     font-weight: bold;
 }
 
-/* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
         flex-direction: row;
@@ -405,41 +389,31 @@ footer {
         max-width: 950px;
     }
 
-    /* Add more space between bass and treble clef images */
     #noteTypes {
-        gap: 40px; /* Increase the gap as needed */
+        gap: 40px;
     }
 
-    /* Style the buttons */
     .choices {
-        gap: 20px; /* Adjust the gap as needed */
+        gap: 20px;
     }
 
-    /* Increase the size of the buttons and "Start Again" button */
     .choice,
     #startAgainButton {
-        padding: 15px 30px; /* Adjust padding as needed */
-        font-size: 1.2rem; /* Increase font size as needed */
+        padding: 15px 30px;
+        font-size: 1.2rem;
     }
 
     #startAgainButton {
-        margin: 30px auto; /* Adjust margin as needed */
-        padding: 12px 24px; /* Adjust padding as needed */
+        margin: 30px auto;
+        padding: 12px 24px;
     }
 
-    /* Adjust the size of the feedback text */
     #feedback {
-        margin-top: 30px; /* Adjust margin as needed */
+        margin-top: 30px;
     }
 
-    /* Adjust the size of the score text */
     #score {
-        font-size: 1.2rem; /* Increase font size as needed */
-    }
- 
-
-    .choice {
-        padding: 15px 30px; /* Adjust padding as needed */
-        font-size: 1.2rem; /* Increase font size as needed */
+        font-size: 1.2rem;
     }
 }
+
