@@ -298,6 +298,11 @@ footer {
     text-align: center;
 }
 
+#noteDisplay img{
+    width: 30%; /* Adjust the width as needed */
+    height: auto;
+}
+
 /* Style the buttons */
 .choices {
     display: flex;
@@ -307,6 +312,7 @@ footer {
 }
 
 .choice {
+    flex-grow: 1;
     padding: 10px 20px;
     background-color: #333;
     color: white;
@@ -314,6 +320,8 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    padding: 8px 16px;
+    font-size: 0.8rem;
 }
 
 .choice:hover {
@@ -397,4 +405,41 @@ footer {
         max-width: 950px;
     }
 
+    /* Add more space between bass and treble clef images */
+    #noteTypes {
+        gap: 40px; /* Increase the gap as needed */
+    }
+
+    /* Style the buttons */
+    .choices {
+        gap: 20px; /* Adjust the gap as needed */
+    }
+
+    /* Increase the size of the buttons and "Start Again" button */
+    .choice,
+    #startAgainButton {
+        padding: 15px 30px; /* Adjust padding as needed */
+        font-size: 1.2rem; /* Increase font size as needed */
+    }
+
+    #startAgainButton {
+        margin: 30px auto; /* Adjust margin as needed */
+        padding: 12px 24px; /* Adjust padding as needed */
+    }
+
+    /* Adjust the size of the feedback text */
+    #feedback {
+        margin-top: 30px; /* Adjust margin as needed */
+    }
+
+    /* Adjust the size of the score text */
+    #score {
+        font-size: 1.2rem; /* Increase font size as needed */
+    }
+ 
+
+    .choice {
+        padding: 15px 30px; /* Adjust padding as needed */
+        font-size: 1.2rem; /* Increase font size as needed */
+    }
 }
